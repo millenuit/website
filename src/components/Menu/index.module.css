@@ -13,8 +13,8 @@
   background-color: #f4f1ec; /* creamy spa tone */
   background-color: #f6f2eb;
   /* slightly green spa */
-background-color: #eef2ee;
-background-color: #ede8df;
+  background-color: #eef2ee;
+  background-color: #ede8df;
   color: #1a1a1a;
 
   transform: translateX(100%);
@@ -40,7 +40,9 @@ background-color: #ede8df;
   font-size: 2.25rem;
   font-weight: 500;
   line-height: 1.2;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .link:hover {
@@ -48,6 +50,9 @@ background-color: #ede8df;
   transform: translateX(-4px);
 }
 .menuFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 2rem;
 }
 

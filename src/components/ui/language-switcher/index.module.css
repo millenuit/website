@@ -1,10 +1,9 @@
 .switcher {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
   gap: 0.25rem;
   padding: 0.25rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(180, 180, 180, 0.404);
 }
 
 .option {
@@ -20,10 +19,12 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
 
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   cursor: pointer;
 
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .option:hover {

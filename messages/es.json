@@ -1,0 +1,157 @@
+{
+  "hero": {
+    "title": {
+      "before": "Restaura el equilibrio.",
+      "highlight": "Reconecta contigo."
+    },
+    "subtitle": "Terapias de masaje personalizadas diseñadas para calmar la mente, restaurar el cuerpo y elevar tu bienestar.",
+    "cta": {
+      "primary": "Reservar cita",
+      "secondary": "Nuestra filosofía"
+    },
+    "imageAlt": "Sesión de masaje relajante"
+  },
+
+  "about": {
+    "title": {
+      "before": "Un espacio dedicado a",
+      "highlight": "Tu bienestar"
+    },
+    "lead": "Creemos que el verdadero bienestar comienza con la presencia, el cuidado y una profunda comprensión del cuerpo.",
+    "paragraphs": {
+      "first": "Nuestro enfoque del masaje se basa en la atención plena, la experiencia terapéutica y una conexión humana auténtica.",
+      "second": "En nuestro espacio sereno y cuidadosamente diseñado, te invitamos a desacelerar, reconectar y restaurar el equilibrio."
+    },
+    "imageAlt": "Ambiente de spa tranquilo con luz natural"
+  },
+
+  "services": {
+    "title": {
+      "before": "Nuestros",
+      "highlight": "Servicios exclusivos"
+    },
+    "subtitle": "Tratamientos cuidadosamente diseñados para apoyar la relajación, la sanación y el equilibrio.",
+    "viewAll": "Ver todos los servicios"
+  },
+
+  "wellness": {
+    "title": {
+      "before": "Tu aliado de confianza en",
+      "highlight": "Bienestar holístico"
+    },
+    "subtitle": "Que tu camino hacia el bienestar comience con masajes personalizados y revitalizantes",
+    "benefits": {
+      "stress": {
+        "title": "Alivio del estrés",
+        "description": "Disuelve la tensión diaria, mejora el estado de ánimo y experimenta una relajación total."
+      },
+      "pain": {
+        "title": "Reducción del dolor",
+        "description": "Alivia músculos tensos, dolor articular y molestias crónicas con técnicas específicas."
+      },
+      "relaxation": {
+        "title": "Relajación profunda",
+        "description": "Calma la mente, relaja el sistema nervioso y desconecta del estrés diario."
+      }
+    },
+    "cta": {
+      "text": "Que tu camino hacia el bienestar comience con masajes personalizados y revitalizantes",
+      "button": "Reservar cita"
+    },
+    "images": {
+      "primaryAlt": "Sala de spa relajante",
+      "secondaryAlt": "Sesión de masaje terapéutico"
+    }
+  },
+
+  "therapeutic": {
+    "title": "Calma tus sentidos con lo <italic>terapéutico</italic>",
+    "items": [
+      {
+        "title": "Sanación emocional",
+        "content": "El contacto humano en un entorno acogedor favorece la liberación emocional y ayuda a aliviar la ansiedad."
+      },
+      {
+        "title": "Rituales de relajación corporal completa",
+        "content": "Rituales cuidadosamente diseñados que ayudan al cuerpo a liberar tensiones y recuperar el equilibrio."
+      },
+      {
+        "title": "Expertos certificados en masaje",
+        "content": "Nuestros terapeutas son profesionales certificados con años de experiencia en masaje terapéutico."
+      },
+      {
+        "title": "Entorno sereno inspirado en el spa",
+        "content": "Una atmósfera tranquila y relajante diseñada para mejorar tu experiencia."
+      },
+      {
+        "title": "Experiencia personalizada en cada sesión",
+        "content": "Cada sesión se adapta a tus necesidades y preferencias únicas."
+      }
+    ]
+  },
+
+  "appointment": {
+    "title": "Reserva tu <italic>cita hoy</italic>",
+
+    "fields": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "date": "Selecciona una fecha",
+      "slot": "Selecciona un horario",
+      "service": "Selecciona un servicio",
+      "message": "Mensaje (opcional)"
+    },
+
+    "slots": {
+      "morning": "Mañana",
+      "afternoon": "Tarde",
+      "evening": "Noche"
+    },
+
+    "services": {
+      "facial": "Facial",
+      "makeup": "Maquillaje",
+      "skincare": "Cuidado de la piel"
+    },
+
+    "submit": "Reservar cita",
+    "sending": "Enviando...",
+    "successMessage": "Tu solicitud de cita se envió correctamente.",
+    "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
+
+    "errors": {
+      "firstName": "Por favor, introduce tu nombre",
+      "lastName": "Por favor, introduce tu apellido",
+      "email": "Introduce una dirección de correo válida",
+      "phone": "Introduce un número de teléfono válido",
+      "date": "Selecciona una fecha",
+      "slot": "Selecciona un horario",
+      "service": "Selecciona un servicio"
+    }
+  },
+
+  "footer": {
+    "brand": "MilleNuit Spa",
+    "description": "Un espacio de calma dedicado al bienestar integral, la relajación y los masajes personalizados.",
+    "nav": {
+      "title": "Explorar",
+      "home": "Inicio",
+      "services": "Servicios",
+      "appointment": "Cita"
+    },
+    "contact": {
+      "title": "Contacto",
+      "address": "279 Av. Mohammed V, Marrakech 40000",
+      "phone1": "+212 6 65 85 49 65",
+      "phone2": "+212 7 80 42 69 33",
+      "email": "contact@millenuit-spa.com"
+    },
+    "cta": {
+      "text": "Comienza tu camino hacia el equilibrio y la relajación.",
+      "button": "Reservar cita"
+    },
+    "copyright": "© 2025 MilleNuit Spa. Todos los derechos reservados."
+  }
+}

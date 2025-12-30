@@ -25,17 +25,15 @@ export default function Footer() {
               <Link href='/services'>{t('nav.services')}</Link>
             </li>
             <li>
-              <Link href='/about'>{t('nav.about')}</Link>
-            </li>
-            <li>
-              <Link href='/contact'>{t('nav.contact')}</Link>
+              <Link href='/appointment'>{t('nav.appointment')}</Link>
             </li>
           </ul>
         </nav>
         <div className={styles.contact}>
           <h3>{t('contact.title')}</h3>
           <p>{t('contact.address')}</p>
-          <p>{t('contact.phone')}</p>
+          <p>{t('contact.phone1')}</p>
+          <p>{t('contact.phone2')}</p>
           <p>{t('contact.email')}</p>
         </div>
         <div className={styles.cta}>

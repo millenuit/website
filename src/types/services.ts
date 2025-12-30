@@ -1,19 +1,32 @@
 export type Locale = 'en' | 'fr' | 'es' | 'de';
 
-export interface Service {
-  id: string;
-  category: string;
-  order: number;
-  title: Record<Locale, string>;
-  duration?: string;
-  price: { EUR: number; MAD: number };
-  image: { url: string; blur: string };
-}
+export type LocaleText = {
+  fr: string;
+  en: string;
+  es: string;
+  de: string;
+};
 
-export interface ServiceCategory {
+export type Price = {
+  EUR: number;
+  MAD: number;
+  from?: boolean;
+};
+
+export type Service = {
+  id: string; // english, stable
+  slug: string; // english, URL-safe
+  title: LocaleText;
+  price: Price;
+  duration?: number; // always minutes
+  priority?: number; // optional fine-tuning
+  image: { url: string; blur: string };
+};
+
+export type ServiceCategory = {
   id: string;
   slug: string;
-  order: number;
-  title: Record<Locale, string>;
+  title: LocaleText;
+  description?: LocaleText;
   services: Service[];
-}
+};

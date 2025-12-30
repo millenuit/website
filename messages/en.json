@@ -133,27 +133,27 @@
       "service": "Please select a service"
     }
   },
-  
+
   "footer": {
-    "brand": "Serenity Spa",
+    "brand": "MilleNuit Spa",
     "description": "A calm space dedicated to holistic wellness, relaxation, and personalized massage therapy.",
     "nav": {
       "title": "Explore",
       "home": "Home",
       "services": "Services",
-      "about": "About",
-      "contact": "Contact"
+      "appointment": "Appointment"
     },
     "contact": {
       "title": "Contact",
-      "address": "123 Wellness Street, Paris",
-      "phone": "+33 1 23 45 67 89",
-      "email": "hello@serenityspa.com"
+      "address": "279 Av. Mohammed V, Marrakesh 40000",
+      "phone1": "+212 6 65 85 49 65",
+      "phone2": "+212 7 80 42 69 33",
+      "email": "contact@millenuit-spa.com"
     },
     "cta": {
       "text": "Begin your journey to balance and relaxation.",
       "button": "Book Appointment"
     },
-    "copyright": "© 2025 Serenity Spa. All rights reserved."
+    "copyright": "© 2025 MilleNuit Spa. All rights reserved."
   }
 }

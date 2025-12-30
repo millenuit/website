@@ -17,11 +17,9 @@ export default function ServiceCategorySection({ category }: Props) {
       <h2 className={styles.title}>{category.title[locale]}</h2>
 
       <div className={styles.grid}>
-        {category.services
-          .sort((a, b) => a.order - b.order)
-          .map((service) => (
-            <ServiceCard key={service.id} service={service} />
-          ))}
+        {category.services.map((service) => (
+          <ServiceCard key={service.id} service={service} />
+        ))}
       </div>
     </section>
   );

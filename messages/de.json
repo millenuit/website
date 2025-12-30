@@ -1,0 +1,157 @@
+{
+  "hero": {
+    "title": {
+      "before": "Finde dein Gleichgewicht.",
+      "highlight": "Verbinde dich mit dir selbst."
+    },
+    "subtitle": "Individuelle Massagetherapien zur Beruhigung des Geistes, zur Regeneration des Körpers und zur Steigerung des Wohlbefindens.",
+    "cta": {
+      "primary": "Termin buchen",
+      "secondary": "Unsere Philosophie"
+    },
+    "imageAlt": "Entspannende Massagetherapie"
+  },
+
+  "about": {
+    "title": {
+      "before": "Ein Raum für",
+      "highlight": "Ihr Wohlbefinden"
+    },
+    "lead": "Wir glauben, dass wahres Wohlbefinden mit Achtsamkeit, Fürsorge und einem tiefen Verständnis des Körpers beginnt.",
+    "paragraphs": {
+      "first": "Unser Massageansatz basiert auf Achtsamkeit, therapeutischer Expertise und echter menschlicher Verbindung.",
+      "second": "In unserem ruhigen, liebevoll gestalteten Raum laden wir Sie ein, zu entschleunigen, sich neu zu verbinden und Balance zu finden."
+    },
+    "imageAlt": "Ruhige Spa-Umgebung mit natürlichem Licht"
+  },
+
+  "services": {
+    "title": {
+      "before": "Unsere",
+      "highlight": "Signature-Services"
+    },
+    "subtitle": "Sorgfältig entwickelte Behandlungen für Entspannung, Heilung und Ausgleich.",
+    "viewAll": "Alle Services ansehen"
+  },
+
+  "wellness": {
+    "title": {
+      "before": "Ihr vertrauensvoller Partner für",
+      "highlight": "Ganzheitliche Wellness"
+    },
+    "subtitle": "Beginnen Sie Ihre Wellness-Reise mit individuellen, revitalisierenden Massagen",
+    "benefits": {
+      "stress": {
+        "title": "Stressabbau",
+        "description": "Lösen Sie tägliche Spannungen, verbessern Sie Ihre Stimmung und erleben Sie tiefe Entspannung."
+      },
+      "pain": {
+        "title": "Schmerzlinderung",
+        "description": "Gezielte Techniken zur Linderung von Muskel- und Gelenkschmerzen."
+      },
+      "relaxation": {
+        "title": "Tiefe Entspannung",
+        "description": "Beruhigen Sie den Geist, entspannen Sie das Nervensystem und entfliehen Sie dem Alltag."
+      }
+    },
+    "cta": {
+      "text": "Beginnen Sie Ihre Wellness-Reise mit individuellen, revitalisierenden Massagen",
+      "button": "Termin buchen"
+    },
+    "images": {
+      "primaryAlt": "Entspannender Spa-Raum",
+      "secondaryAlt": "Therapeutische Massage"
+    }
+  },
+
+  "therapeutic": {
+    "title": "Beruhigen Sie Ihre Sinne mit <italic>Therapie</italic>",
+    "items": [
+      {
+        "title": "Emotionale Heilung",
+        "content": "Menschliche Berührung in einer achtsamen Umgebung fördert emotionale Entlastung und lindert sanft innere Anspannung."
+      },
+      {
+        "title": "Ganzkörper-Entspannungsrituale",
+        "content": "Sorgfältig entwickelte Rituale, die dem Körper helfen, Spannungen loszulassen und Balance zu finden."
+      },
+      {
+        "title": "Zertifizierte Massageexperten",
+        "content": "Unsere Therapeuten sind ausgebildete Fachkräfte mit langjähriger Erfahrung."
+      },
+      {
+        "title": "Ruhige Spa-inspirierte Umgebung",
+        "content": "Eine friedliche Atmosphäre, die Ihre Entspannung intensiviert."
+      },
+      {
+        "title": "Individuelles Massageerlebnis bei jeder Sitzung",
+        "content": "Jede Behandlung wird individuell auf Ihre Bedürfnisse abgestimmt."
+      }
+    ]
+  },
+
+  "appointment": {
+    "title": "Buchen Sie Ihren <italic>Termin noch heute</italic>",
+
+    "fields": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "date": "Datum auswählen",
+      "slot": "Zeitfenster auswählen",
+      "service": "Service auswählen",
+      "message": "Nachricht (optional)"
+    },
+
+    "slots": {
+      "morning": "Morgen",
+      "afternoon": "Nachmittag",
+      "evening": "Abend"
+    },
+
+    "services": {
+      "facial": "Gesichtsbehandlung",
+      "makeup": "Make-up",
+      "skincare": "Hautpflege"
+    },
+
+    "submit": "Termin buchen",
+    "sending": "Wird gesendet...",
+    "successMessage": "Ihre Terminanfrage wurde erfolgreich gesendet.",
+    "errorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+
+    "errors": {
+      "firstName": "Bitte geben Sie Ihren Vornamen ein",
+      "lastName": "Bitte geben Sie Ihren Nachnamen ein",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+      "date": "Bitte wählen Sie ein Datum",
+      "slot": "Bitte wählen Sie ein Zeitfenster",
+      "service": "Bitte wählen Sie einen Service"
+    }
+  },
+
+  "footer": {
+    "brand": "MilleNuit Spa",
+    "description": "Ein ruhiger Ort für ganzheitliches Wohlbefinden, Entspannung und individuelle Massagetherapie.",
+    "nav": {
+      "title": "Entdecken",
+      "home": "Startseite",
+      "services": "Services",
+      "appointment": "Termin"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "address": "279 Av. Mohammed V, Marrakech 40000",
+      "phone1": "+212 6 65 85 49 65",
+      "phone2": "+212 7 80 42 69 33",
+      "email": "contact@millenuit-spa.com"
+    },
+    "cta": {
+      "text": "Beginnen Sie Ihre Reise zu Balance und Entspannung.",
+      "button": "Termin buchen"
+    },
+    "copyright": "© 2025 MilleNuit Spa. Alle Rechte vorbehalten."
+  }
+}

@@ -4,8 +4,7 @@ import { useLocale } from 'next-intl';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import { usePathname, useRouter } from '@/i18n/navigation';
-
-const LOCALES = ['en', 'fr'] as const;
+import { routing } from '@/i18n/routing';
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
@@ -18,7 +17,7 @@ export default function LanguageSwitcher() {
 
   return (
     <div className={styles.switcher}>
-      {LOCALES.map((language) => (
+      {routing.locales.map((language) => (
         <button
           key={language}
           className={clsx(styles.option, language === locale && styles.active)}

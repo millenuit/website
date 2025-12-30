@@ -1,62 +1,62 @@
 {
   "hero": {
     "title": {
-      "before": "Retrouvez l’Équilibre.",
-      "highlight": "Reconnectez-Vous."
+      "before": "Retrouvez l’équilibre.",
+      "highlight": "Reconnectez-vous à vous-même."
     },
-    "subtitle": "Des soins de massage personnalisés pour apaiser l’esprit, revitaliser le corps et élever votre bien-être.",
+    "subtitle": "Des soins de massage personnalisés conçus pour apaiser l’esprit, restaurer le corps et élever votre bien-être.",
     "cta": {
-      "primary": "Prendre Rendez-Vous",
-      "secondary": "Notre Philosophie"
+      "primary": "Prendre rendez-vous",
+      "secondary": "Notre philosophie"
     },
-    "imageAlt": "Séance de massage relaxante"
+    "imageAlt": "Séance de massage apaisante"
   },
 
   "about": {
     "title": {
-      "before": "Un Espace Dédié à",
-      "highlight": "Votre Bien-Être"
+      "before": "Un espace dédié à",
+      "highlight": "Votre bien-être"
     },
-    "lead": "Nous croyons que le véritable bien-être commence par la présence, l’attention et une profonde écoute du corps.",
+    "lead": "Nous croyons que le véritable bien-être commence par la présence, l’attention et une compréhension profonde du corps.",
     "paragraphs": {
-      "first": "Notre approche du massage repose sur la pleine conscience, l’expertise thérapeutique et une véritable connexion humaine. Chaque soin est adapté à vos besoins — physiques et émotionnels.",
-      "second": "Dans un espace serein et soigneusement conçu, nous vous invitons à ralentir, à vous recentrer et à rétablir l’équilibre. Votre bien-être n’est pas une routine — c’est un chemin personnel que nous avons à cœur d’accompagner."
+      "first": "Notre approche du massage repose sur la pleine conscience, l’expertise thérapeutique et une véritable connexion humaine. Chaque soin est adapté à vos besoins physiques et émotionnels.",
+      "second": "Dans notre espace serein et soigneusement conçu, nous vous invitons à ralentir, à vous reconnecter et à retrouver l’équilibre. Votre bien-être n’est pas une routine — c’est un voyage personnel que nous sommes honorés d’accompagner."
     },
-    "imageAlt": "Espace spa paisible baigné de lumière naturelle"
+    "imageAlt": "Environnement de spa paisible avec lumière naturelle"
   },
 
   "services": {
     "title": {
       "before": "Nos",
-      "highlight": "Soins Signature"
+      "highlight": "Soins signature"
     },
-    "subtitle": "Des soins conçus avec attention pour favoriser la détente, la guérison et l’harmonie.",
-    "viewAll": "Voir tous les soins"
+    "subtitle": "Des soins soigneusement conçus pour favoriser la détente, la guérison et l’équilibre.",
+    "viewAll": "Voir tous les services"
   },
 
   "wellness": {
     "title": {
-      "before": "Votre Partenaire de Confiance en",
-      "highlight": "Bien-Être Holistique"
+      "before": "Votre partenaire de confiance en",
+      "highlight": "Bien-être holistique"
     },
-    "subtitle": "Commencez votre parcours bien-être avec des massages personnalisés et régénérants",
+    "subtitle": "Commencez votre parcours bien-être avec des soins de massage personnalisés et revitalisants",
     "benefits": {
       "stress": {
-        "title": "Soulagement du Stress",
-        "description": "Libérez les tensions du quotidien, améliorez votre humeur et retrouvez une relaxation profonde."
+        "title": "Soulagement du stress",
+        "description": "Libérez les tensions quotidiennes, améliorez votre humeur et profitez d’une relaxation totale."
       },
       "pain": {
-        "title": "Réduction des Douleurs",
-        "description": "Soulagez les tensions musculaires, articulaires et les douleurs chroniques grâce à des techniques ciblées."
+        "title": "Réduction des douleurs",
+        "description": "Ciblez les muscles douloureux, les articulations et les inconforts chroniques grâce à des techniques ciblées."
       },
       "relaxation": {
-        "title": "Relaxation Profonde",
-        "description": "Apaisez l’esprit, calmez le système nerveux et échappez au rythme quotidien."
+        "title": "Relaxation profonde",
+        "description": "Apaisez l’esprit, calmez le système nerveux et évadez-vous du stress quotidien."
       }
     },
     "cta": {
-      "text": "Commencez votre parcours bien-être avec des massages personnalisés et régénérants",
-      "button": "Prendre Rendez-Vous"
+      "text": "Commencez votre parcours bien-être avec des soins de massage personnalisés et revitalisants",
+      "button": "Prendre rendez-vous"
     },
     "images": {
       "primaryAlt": "Salle de spa relaxante",
@@ -65,33 +65,33 @@
   },
 
   "therapeutic": {
-    "title": "Apaisez Vos Sens Avec le <italic>Thérapeutique</italic>",
+    "title": "Apaisez vos sens avec le <italic>thérapeutique</italic>",
     "items": [
       {
-        "title": "Guérison Émotionnelle",
-        "content": "Le toucher bienveillant dans un cadre sécurisant favorise la libération émotionnelle et aide à apaiser l’anxiété et les tensions intérieures."
+        "title": "Guérison émotionnelle",
+        "content": "Le toucher humain dans un cadre bienveillant favorise la libération émotionnelle et aide à apaiser l’anxiété et le stress émotionnel."
       },
       {
-        "title": "Rituels de Relaxation Corps Entier",
-        "content": "Des rituels soigneusement élaborés pour permettre au corps de relâcher les tensions et retrouver l’équilibre."
+        "title": "Rituels de relaxation du corps entier",
+        "content": "Des rituels soigneusement élaborés pour aider le corps à relâcher les tensions et à retrouver l’équilibre."
       },
       {
-        "title": "Experts en Massage Certifiés",
-        "content": "Nos praticiens sont des professionnels qualifiés, formés et expérimentés en massage thérapeutique."
+        "title": "Experts certifiés en massage",
+        "content": "Nos thérapeutes sont des professionnels certifiés avec plusieurs années d’expérience en massage thérapeutique."
       },
       {
-        "title": "Ambiance Sereine Inspirée des Spas",
-        "content": "Un environnement calme et apaisant conçu pour sublimer votre expérience de détente."
+        "title": "Environnement serein inspiré du spa",
+        "content": "Une atmosphère paisible et apaisante conçue pour enrichir votre expérience de relaxation."
       },
       {
-        "title": "Une Expérience Personnalisée à Chaque Séance",
-        "content": "Chaque soin est entièrement personnalisé pour répondre à vos besoins et préférences."
+        "title": "Une expérience personnalisée à chaque séance",
+        "content": "Chaque séance est adaptée à vos besoins et préférences uniques."
       }
     ]
   },
 
   "appointment": {
-    "title": "Réservez votre <italic>rendez-vous aujourd’hui</italic>",
+    "title": "Réservez votre <italic>rendez-vous dès aujourd’hui</italic>",
 
     "fields": {
       "firstName": "Prénom",
@@ -99,7 +99,7 @@
       "email": "Adresse e-mail",
       "phone": "Numéro de téléphone",
       "date": "Sélectionnez une date",
-      "slot": "Sélectionnez un créneau horaire",
+      "slot": "Sélectionnez un créneau",
       "service": "Sélectionnez un service",
       "message": "Message (optionnel)"
     },
@@ -118,40 +118,40 @@
 
     "submit": "Prendre rendez-vous",
     "sending": "Envoi en cours...",
-
-    "successMessage": "Votre demande de rendez-vous a bien été envoyée.",
+    "successMessage": "Votre demande de rendez-vous a été envoyée avec succès.",
     "errorMessage": "Une erreur est survenue. Veuillez réessayer.",
 
     "errors": {
-      "firstName": "Veuillez entrer votre prénom",
-      "lastName": "Veuillez entrer votre nom",
-      "email": "Veuillez entrer une adresse e-mail valide",
-      "phone": "Veuillez entrer un numéro de téléphone valide",
+      "firstName": "Veuillez saisir votre prénom",
+      "lastName": "Veuillez saisir votre nom",
+      "email": "Veuillez saisir une adresse e-mail valide",
+      "phone": "Veuillez saisir un numéro de téléphone valide",
       "date": "Veuillez sélectionner une date",
-      "slot": "Veuillez sélectionner un créneau horaire",
+      "slot": "Veuillez sélectionner un créneau",
       "service": "Veuillez sélectionner un service"
     }
   },
+
   "footer": {
-    "brand": "Serenity Spa",
-    "description": "Un espace dédié au bien-être holistique, à la détente et aux soins personnalisés.",
+    "brand": "MilleNuit Spa",
+    "description": "Un espace de calme dédié au bien-être holistique, à la détente et aux soins personnalisés.",
     "nav": {
       "title": "Explorer",
       "home": "Accueil",
-      "services": "Soins",
-      "about": "À propos",
-      "contact": "Contact"
+      "services": "Services",
+      "appointment": "Rendez-vous"
     },
     "contact": {
       "title": "Contact",
-      "address": "123 rue du Bien-Être, Paris",
-      "phone": "+33 1 23 45 67 89",
-      "email": "bonjour@serenityspa.com"
+      "address": "279 Av. Mohammed V, Marrakech 40000",
+      "phone1": "+212 6 65 85 49 65",
+      "phone2": "+212 7 80 42 69 33",
+      "email": "contact@millenuit-spa.com"
     },
     "cta": {
-      "text": "Commencez votre chemin vers l’équilibre et la détente.",
-      "button": "Prendre Rendez-Vous"
+      "text": "Commencez votre voyage vers l’équilibre et la détente.",
+      "button": "Prendre rendez-vous"
     },
-    "copyright": "© 2025 Serenity Spa. Tous droits réservés."
+    "copyright": "© 2025 MilleNuit Spa. Tous droits réservés."
   }
 }
