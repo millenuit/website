@@ -1,0 +1,147 @@
+html,
+body {
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  text-align: var(--body-text-align);
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+::selection {
+  color: var(--background);
+  background-color: var(--foreground);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media screen and (min-width: 48rem) {
+  .container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
+  color: var(--heading-color);
+}
+
+h1,
+.h1 {
+  font-size: clamp(4rem, 3.824vw + 2.776rem, 8rem);
+}
+
+h2,
+.h2 {
+  font-size: clamp(1.75rem, 1.214rem + 1.429vw, 2.5rem);
+}
+
+h3,
+.h3 {
+  font-size: clamp(1.5rem, 1.143rem + 0.952vw, 2rem);
+}
+
+h4,
+.h4 {
+  font-size: clamp(1.275rem, 1.114rem + 0.429vw, 1.5rem);
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+.brackets {
+  font-family: 'TT Commons';
+  text-transform: uppercase;
+}
+
+.brackets::before {
+  content: '(\a0';
+}
+
+.brackets::after {
+  content: '\a0)';
+}
+
+/* Apply to html or body to cover the whole page */
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.PageTransition {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+
+  background-color: #030304;
+  z-index: 100;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  will-change: clip-path;
+  clip-path: inset(100% 0% 0% 0%);
+}
+
+.PageTransitionLogo {
+  fill: rgb(255, 255, 255);
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}

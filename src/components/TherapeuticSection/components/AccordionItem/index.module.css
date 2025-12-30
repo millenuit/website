@@ -1,0 +1,33 @@
+.item {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  padding: 1.1rem 1.25rem;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.panel {
+  overflow: hidden;
+}
+
+.panel p {
+  padding: 0 1.25rem 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}

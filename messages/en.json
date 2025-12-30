@@ -1,0 +1,149 @@
+{
+  "hero": {
+    "title": {
+      "before": "Restore Balance.",
+      "highlight": "Reconnect Within."
+    },
+    "subtitle": "Personalized massage therapy designed to calm your mind, restore your body, and elevate your sense of well-being.",
+    "cta": {
+      "primary": "Book Appointment",
+      "secondary": "Our Philosophy"
+    },
+    "imageAlt": "Peaceful massage therapy session"
+  },
+
+  "about": {
+    "title": {
+      "before": "A Space Dedicated to",
+      "highlight": "Your Well-Being"
+    },
+    "lead": "We believe true wellness begins with presence, care, and a deep understanding of the body.",
+    "paragraphs": {
+      "first": "Our approach to massage therapy is rooted in mindfulness, therapeutic expertise, and genuine human connection. Every treatment is tailored to meet you where you are — physically and emotionally.",
+      "second": "In our serene, thoughtfully designed space, we invite you to slow down, reconnect, and restore balance. Your well-being is not a routine — it’s a personal journey we are honored to support."
+    },
+    "imageAlt": "Peaceful spa environment with natural light"
+  },
+
+  "services": {
+    "title": {
+      "before": "Our",
+      "highlight": "Signature Services"
+    },
+    "subtitle": "Thoughtfully designed treatments to support relaxation, healing, and balance.",
+    "viewAll": "View all services"
+  },
+
+  "wellness": {
+    "title": {
+      "before": "Your Trusted Partner In",
+      "highlight": "Holistic Wellness Care"
+    },
+    "subtitle": "Let your wellness journey begin with personalized, rejuvenating massage therapy",
+    "benefits": {
+      "stress": {
+        "title": "Stress Relief",
+        "description": "Melt away daily tension, improve mood, and experience complete relaxation."
+      },
+      "pain": {
+        "title": "Pain Reduction",
+        "description": "Target sore muscles, joint pain, and chronic discomfort with focused techniques."
+      },
+      "relaxation": {
+        "title": "Deep Relaxation",
+        "description": "Slow your mind, calm your nervous system, and escape daily stimulation."
+      }
+    },
+    "cta": {
+      "text": "Let your wellness journey begin with personalized, rejuvenating massage therapy",
+      "button": "Book Appointment"
+    },
+    "images": {
+      "primaryAlt": "Relaxing spa room",
+      "secondaryAlt": "Massage therapy session"
+    }
+  },
+
+  "therapeutic": {
+    "title": "Calm Your Senses With <italic>Therapeutic</italic>",
+    "items": [
+      {
+        "title": "Emotional Healing",
+        "content": "Human touch in a nurturing setting promotes emotional release, helping relieve anxiety, sadness, or emotional overwhelm gently."
+      },
+      {
+        "title": "Full-Body Relaxation Rituals",
+        "content": "Carefully designed rituals that help the entire body release tension and restore balance."
+      },
+      {
+        "title": "Trained Licensed Massage Experts",
+        "content": "Our therapists are certified professionals with years of experience in therapeutic massage."
+      },
+      {
+        "title": "Serene, Spa-Inspired Environment",
+        "content": "A peaceful, calming atmosphere designed to enhance your relaxation experience."
+      },
+      {
+        "title": "Tailored Massage Experience Every Time",
+        "content": "Each session is personalized to meet your unique needs and preferences."
+      }
+    ]
+  },
+
+  "appointment": {
+    "title": "Book Your <italic>Appointment Today</italic>",
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "date": "Select a date",
+      "slot": "Select a time slot",
+      "service": "Select a service",
+      "message": "Message (optional)"
+    },
+    "slots": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening"
+    },
+    "services": {
+      "facial": "Facial",
+      "makeup": "Makeup",
+      "skincare": "Skincare"
+    },
+    "submit": "Book Appointment",
+    "errors": {
+      "firstName": "Please enter your first name",
+      "lastName": "Please enter your last name",
+      "email": "Please enter a valid email address",
+      "phone": "Please enter a valid phone number",
+      "date": "Please select a date",
+      "slot": "Please select a time slot",
+      "service": "Please select a service"
+    }
+  },
+
+  "footer": {
+    "brand": "Serenity Spa",
+    "description": "A calm space dedicated to holistic wellness, relaxation, and personalized massage therapy.",
+    "nav": {
+      "title": "Explore",
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "123 Wellness Street, Paris",
+      "phone": "+33 1 23 45 67 89",
+      "email": "hello@serenityspa.com"
+    },
+    "cta": {
+      "text": "Begin your journey to balance and relaxation.",
+      "button": "Book Appointment"
+    },
+    "copyright": "© 2025 Serenity Spa. All rights reserved."
+  }
+}

@@ -1,0 +1,21 @@
+.section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: .0625rem black solid;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 48rem) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

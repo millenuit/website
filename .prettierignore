@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules
+
+# Next.js build outputs
+.next
+out
+build
+dist
+
+# Other generated files
+coverage
+*.log
+
+# Configuration files you may not want formatted (optional)
+.prettierignore
+.eslintrc.json
+.lintstagedrc.js

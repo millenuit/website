@@ -1,0 +1,130 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem 1.25rem;
+  min-height: 100svh;
+  background: #faf7f2;
+}
+
+.formContainer {
+  width: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.title span {
+  font-family: serif;
+  font-style: italic;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.full {
+  margin-top: 1rem;
+}
+
+.form textarea {
+  margin-top: 1rem;
+  resize: none;
+}
+
+.form button {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 999px;
+  background: #2f2f1f;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  font-size: 0.75rem;
+  color: #c0392b;
+  margin-top: 0.25rem;
+}
+
+/* Image */
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* ===== Tablet & Up ===== */
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 3rem 3rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .imageContainer {
+    height: 480px;
+  }
+}
+
+/* ===== Desktop & Up ===== */
+
+@media (min-width: 1024px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem;
+  }
+
+  .formContainer {
+    max-width: 520px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .imageContainer {
+    height: 560px;
+  }
+}

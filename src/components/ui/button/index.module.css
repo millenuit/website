@@ -1,0 +1,71 @@
+/* ===== Base ===== */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+/* ===== Sizes ===== */
+
+.sm {
+  font-size: 0.85rem;
+  padding: 0.55rem 1.25rem;
+}
+
+.md {
+  font-size: 0.95rem;
+  padding: 0.75rem 1.6rem;
+}
+
+.lg {
+  font-size: 1rem;
+  padding: 0.9rem 1.9rem;
+}
+
+/* ===== Variants ===== */
+
+.primary {
+  background: #2f3324;
+  color: white;
+}
+
+.primary:hover {
+  background: #232617;
+}
+
+.secondary {
+  background: transparent;
+  color: #2f3324;
+  border: 1px solid rgba(47, 51, 36, 0.3);
+}
+
+.secondary:hover {
+  background: rgba(47, 51, 36, 0.05);
+}
+
+.ghost {
+  background: transparent;
+  color: #2f3324;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ghost:hover {
+  text-decoration: underline;
+}
+
+/* ===== Helpers ===== */
+
+.fullWidth {
+  width: 100%;
+}
