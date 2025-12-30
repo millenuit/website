@@ -91,39 +91,47 @@
   },
 
   "appointment": {
-    "title": "Réservez Votre <italic>Rendez-Vous</italic>",
+    "title": "Réservez votre <italic>rendez-vous aujourd’hui</italic>",
+
     "fields": {
       "firstName": "Prénom",
       "lastName": "Nom",
       "email": "Adresse e-mail",
       "phone": "Numéro de téléphone",
-      "date": "Sélectionner une date",
-      "slot": "Sélectionner un créneau",
-      "service": "Sélectionner un soin",
+      "date": "Sélectionnez une date",
+      "slot": "Sélectionnez un créneau horaire",
+      "service": "Sélectionnez un service",
       "message": "Message (optionnel)"
     },
+
     "slots": {
       "morning": "Matin",
       "afternoon": "Après-midi",
       "evening": "Soir"
     },
+
     "services": {
       "facial": "Soin du visage",
       "makeup": "Maquillage",
-      "skincare": "Soins de la peau"
+      "skincare": "Soin de la peau"
     },
-    "submit": "Prendre Rendez-Vous",
+
+    "submit": "Prendre rendez-vous",
+    "sending": "Envoi en cours...",
+
+    "successMessage": "Votre demande de rendez-vous a bien été envoyée.",
+    "errorMessage": "Une erreur est survenue. Veuillez réessayer.",
+
     "errors": {
       "firstName": "Veuillez entrer votre prénom",
       "lastName": "Veuillez entrer votre nom",
       "email": "Veuillez entrer une adresse e-mail valide",
       "phone": "Veuillez entrer un numéro de téléphone valide",
       "date": "Veuillez sélectionner une date",
-      "slot": "Veuillez sélectionner un créneau",
-      "service": "Veuillez sélectionner un soin"
+      "slot": "Veuillez sélectionner un créneau horaire",
+      "service": "Veuillez sélectionner un service"
     }
   },
-
   "footer": {
     "brand": "Serenity Spa",
     "description": "Un espace dédié au bien-être holistique, à la détente et aux soins personnalisés.",

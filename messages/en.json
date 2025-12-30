@@ -92,6 +92,7 @@
 
   "appointment": {
     "title": "Book Your <italic>Appointment Today</italic>",
+
     "fields": {
       "firstName": "First name",
       "lastName": "Last name",
@@ -102,17 +103,26 @@
       "service": "Select a service",
       "message": "Message (optional)"
     },
+
     "slots": {
       "morning": "Morning",
       "afternoon": "Afternoon",
       "evening": "Evening"
     },
+
     "services": {
       "facial": "Facial",
       "makeup": "Makeup",
       "skincare": "Skincare"
     },
+
     "submit": "Book Appointment",
+
+    "sending": "Sending...",
+
+    "successMessage": "Your appointment request was sent successfully.",
+    "errorMessage": "Something went wrong. Please try again.",
+
     "errors": {
       "firstName": "Please enter your first name",
       "lastName": "Please enter your last name",
@@ -123,7 +133,7 @@
       "service": "Please select a service"
     }
   },
-
+  
   "footer": {
     "brand": "Serenity Spa",
     "description": "A calm space dedicated to holistic wellness, relaxation, and personalized massage therapy.",

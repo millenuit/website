@@ -89,6 +89,18 @@
   object-fit: cover;
 }
 
+.successMessage {
+  color: #22c55e;
+  margin-top: 0.75rem;
+  font-weight: 500;
+}
+
+.errorMessage {
+  color: #ef4444;
+  margin-top: 0.75rem;
+  font-weight: 500;
+}
+
 /* ===== Tablet & Up ===== */
 
 @media (min-width: 768px) {
