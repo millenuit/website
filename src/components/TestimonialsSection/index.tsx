@@ -5,10 +5,15 @@ import gsap from 'gsap';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import testimonials from '@/data/testimonials';
+import Image from 'next/image';
+import { useLocale } from 'next-intl';
+import { Locale } from '@/types/services';
 
 export default function Testimonials() {
   const trackRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
+
+  const locale = useLocale() as Locale;
 
   const scrollToIndex = (index: number) => {
     if (!trackRef.current) return;
@@ -43,17 +48,20 @@ export default function Testimonials() {
               onClick={() => scrollToIndex(i)}
             >
               <p className={styles.quote}>“</p>
-              <p className={styles.text}>{item.text}</p>
+              <p className={styles.text}>{item.text[locale]}</p>
 
               <div className={styles.profile}>
-                <img
-                  src={item.avatar}
-                  alt={item.name}
-                  className={styles.avatar}
-                />
+                <div className={styles.imageWrapper}>
+                  <Image
+                    src={item.avatar}
+                    alt={item.name}
+                    className={styles.avatar}
+                    fill
+                  />
+                </div>
                 <div>
                   <p className={styles.name}>{item.name}</p>
-                  <p className={styles.role}>{item.role}</p>
+                  <p className={styles.role}>{item.role[locale]}</p>
                 </div>
               </div>
             </article>

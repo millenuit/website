@@ -12,7 +12,7 @@ export default function WellnessSection() {
       <div className={styles.grid}>
         <div className={styles.imagePrimary}>
           <Image
-            src='/images/wellness-room.jpg'
+            src='/images/wellness-room.png'
             alt={t('images.primaryAlt')}
             fill
             className={styles.image}

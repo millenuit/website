@@ -21,16 +21,12 @@ export default function HeroSection() {
             <Button as='link' href='/appointment'>
               {t('cta.primary')}
             </Button>
-
-            <Button as='link' href='/about' variant='secondary'>
-              {t('cta.secondary')}
-            </Button>
           </div>
         </div>
 
         <div className={styles.imageWrapper}>
           <Image
-            src='/images/hero-poster.webp'
+            src='/images/hero.png'
             alt={t('imageAlt')}
             fill
             priority

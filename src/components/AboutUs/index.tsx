@@ -13,7 +13,7 @@ export default function AboutSection() {
       <div className={clsx('container', styles.container)}>
         <div className={styles.imageWrapper}>
           <Image
-            src='/images/about-spa.jpg'
+            src='/images/about-spa.png'
             alt={t('imageAlt')}
             fill
             className={styles.image}

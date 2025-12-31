@@ -39,7 +39,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 5, MAD: 50 },
         duration: 15,
-        image: { url: '/images/services/mens-blow-dry.jpg', blur: BLUR },
+        image: { url: '/images/services/mens-blow-dry.webp', blur: BLUR },
       },
       {
         id: 'beard-trim',
@@ -52,7 +52,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 10, MAD: 100 },
         duration: 20,
-        image: { url: '/images/services/beard-trim.jpg', blur: BLUR },
+        image: { url: '/images/services/beard-trim.jpeg', blur: BLUR },
       },
       {
         id: 'beard-coloring',
@@ -65,7 +65,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 30,
-        image: { url: '/images/services/beard-coloring.jpg', blur: BLUR },
+        image: { url: '/images/services/beard-coloring.webp', blur: BLUR },
       },
       {
         id: 'mens-hair-color',
@@ -78,7 +78,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 25, MAD: 250 },
         duration: 45,
-        image: { url: '/images/services/mens-hair-color.jpg', blur: BLUR },
+        image: { url: '/images/services/mens-hair-color.webp', blur: BLUR },
       },
     ],
   },
@@ -104,7 +104,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 25, MAD: 250 },
         duration: 60,
-        image: { url: '/images/services/hair-treatments.jpg', blur: BLUR },
+        image: { url: '/images/services/hair-bleaching.avif', blur: BLUR },
       },
       {
         id: 'keratin-smoothing',
@@ -117,7 +117,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 50, MAD: 500 },
         duration: 90,
-        image: { url: '/images/services/hair-treatments.jpg', blur: BLUR },
+        image: { url: '/images/services/keratin-smoothing.jpeg', blur: BLUR },
       },
     ],
   },
@@ -143,7 +143,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 5, MAD: 50 },
         duration: 10,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/eyebrows-waxing.jpeg', blur: BLUR },
       },
       {
         id: 'eyebrow-shaping',
@@ -156,7 +156,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 8, MAD: 80 },
         duration: 15,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/eyebrow-shaping.jpg', blur: BLUR },
       },
       {
         id: 'upper-lip',
@@ -169,7 +169,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 4, MAD: 40 },
         duration: 10,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/upper-lip-waxing.webp', blur: BLUR },
       },
       {
         id: 'chin',
@@ -182,7 +182,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 4, MAD: 40 },
         duration: 10,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/chin-waxing.jpeg', blur: BLUR },
       },
       {
         id: 'full-face',
@@ -195,7 +195,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 20,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/full-face-waxing.webp', blur: BLUR },
       },
       {
         id: 'underarms',
@@ -208,7 +208,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 6, MAD: 60 },
         duration: 10,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/underarms-waxing.webp', blur: BLUR },
       },
       {
         id: 'half-arms',
@@ -221,7 +221,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 6, MAD: 60 },
         duration: 15,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/half-arms-waxing.jpeg', blur: BLUR },
       },
       {
         id: 'full-arms',
@@ -234,7 +234,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 8, MAD: 80 },
         duration: 20,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/full-arms-waxing.jpeg', blur: BLUR },
       },
       {
         id: 'half-legs',
@@ -247,7 +247,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 8, MAD: 80 },
         duration: 20,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/half-legs-waxing.jpeg', blur: BLUR },
       },
       {
         id: 'full-legs',
@@ -260,7 +260,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 30,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/full-legs-waxing.jpeg', blur: BLUR },
       },
       {
         id: 'bikini-line',
@@ -273,7 +273,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 6, MAD: 60 },
         duration: 15,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/bikini-line-waxing.webp', blur: BLUR },
       },
       {
         id: 'brazilian',
@@ -286,7 +286,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 12, MAD: 120 },
         duration: 25,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/brazilian-waxing.webp', blur: BLUR },
       },
       {
         id: 'full-bikini',
@@ -299,7 +299,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 30,
-        image: { url: '/images/services/women-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/full-bikini-waxing.jpg', blur: BLUR },
       },
     ],
   },
@@ -325,7 +325,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 20, MAD: 200 },
         duration: 35,
-        image: { url: '/images/services/men-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/men-full-legs-waxing.jpg', blur: BLUR },
       },
       {
         id: 'men-half-legs',
@@ -338,7 +338,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 12, MAD: 120 },
         duration: 25,
-        image: { url: '/images/services/men-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/men-half-legs-waxing.webp', blur: BLUR },
       },
       {
         id: 'men-back',
@@ -351,7 +351,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 20, MAD: 200 },
         duration: 30,
-        image: { url: '/images/services/men-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/men-back-waxing.png', blur: BLUR },
       },
       {
         id: 'men-stomach',
@@ -364,7 +364,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 12, MAD: 120 },
         duration: 20,
-        image: { url: '/images/services/men-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/men-stomach-waxing.webp', blur: BLUR },
       },
       {
         id: 'men-arms',
@@ -377,7 +377,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 9, MAD: 90 },
         duration: 25,
-        image: { url: '/images/services/men-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/men-arms-waxing.webp', blur: BLUR },
       },
       {
         id: 'men-half-arms',
@@ -390,7 +390,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 6, MAD: 60 },
         duration: 20,
-        image: { url: '/images/services/men-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/men-half-arms-waxing.webp', blur: BLUR },
       },
       {
         id: 'men-chest',
@@ -403,7 +403,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 12, MAD: 120 },
         duration: 25,
-        image: { url: '/images/services/men-waxing.jpg', blur: BLUR },
+        image: { url: '/images/services/men-chest-waxing.webp', blur: BLUR },
       },
     ],
   },
@@ -429,7 +429,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 30,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/manicure.webp', blur: BLUR },
       },
       {
         id: 'pedicure',
@@ -442,7 +442,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 30,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/pedicure.jpg', blur: BLUR },
       },
       {
         id: 'nail-polish',
@@ -455,7 +455,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 5, MAD: 50 },
         duration: 15,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/nail-polish.jpeg', blur: BLUR },
       },
       {
         id: 'permanent-polish',
@@ -468,7 +468,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 30,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/permanent-polish.jpeg', blur: BLUR },
       },
       {
         id: 'medical-manicure',
@@ -481,7 +481,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 35, MAD: 350 },
         duration: 60,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/medical-manicure.avif', blur: BLUR },
       },
       {
         id: 'medical-pedicure',
@@ -494,7 +494,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 35, MAD: 350 },
         duration: 60,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/medical-pedicure.jpg', blur: BLUR },
       },
       {
         id: 'gel-refill',
@@ -507,7 +507,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 25, MAD: 250 },
         duration: 45,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/gel-refill.jpeg', blur: BLUR },
       },
       {
         id: 'eyelash-extensions',
@@ -520,7 +520,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 40,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/eyelash-extensions.jpeg', blur: BLUR },
       },
       {
         id: 'eyebrow-tattoo',
@@ -533,7 +533,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 10, MAD: 100 },
         duration: 60,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/eyebrow-tattoo.webp', blur: BLUR },
       },
       {
         id: 'lash-permanent',
@@ -546,7 +546,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 30, MAD: 300 },
         duration: 50,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/lash-permanent.webp', blur: BLUR },
       },
       {
         id: 'permanent-gel',
@@ -559,7 +559,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 40, MAD: 400 },
         duration: 60,
-        image: { url: '/images/services/beauty.jpg', blur: BLUR },
+        image: { url: '/images/services/permanent-gel.jpg', blur: BLUR },
       },
     ],
   },
@@ -585,7 +585,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 30,
         price: { EUR: 25, MAD: 250 },
-        image: { url: '/images/services/facial-care.jpg', blur: BLUR },
+        image: { url: '/images/services/facial-optimizer.jpg', blur: BLUR },
       },
       {
         id: 'facial-glow',
@@ -598,7 +598,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 30,
         price: { EUR: 35, MAD: 350 },
-        image: { url: '/images/services/facial-care.jpg', blur: BLUR },
+        image: { url: '/images/services/facial-glow.jpeg', blur: BLUR },
       },
       {
         id: 'facial-classic',
@@ -611,7 +611,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 45,
         price: { EUR: 60, MAD: 600 },
-        image: { url: '/images/services/facial-care.jpg', blur: BLUR },
+        image: { url: '/images/services/facial-classic.jpeg', blur: BLUR },
       },
     ],
   },
@@ -637,7 +637,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 15, MAD: 150 },
         duration: 30,
-        image: { url: '/images/services/women-hairdressing.jpg', blur: BLUR },
+        image: { url: '/images/services/brushing-long.jpg', blur: BLUR },
       },
       {
         id: 'brushing-short',
@@ -650,7 +650,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 10, MAD: 100 },
         duration: 25,
-        image: { url: '/images/services/women-hairdressing.jpg', blur: BLUR },
+        image: { url: '/images/services/brushing-short.jpg', blur: BLUR },
       },
       {
         id: 'point-cut',
@@ -663,7 +663,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 10, MAD: 100 },
         duration: 20,
-        image: { url: '/images/services/women-hairdressing.jpg', blur: BLUR },
+        image: { url: '/images/services/point-cut.webp', blur: BLUR },
       },
       {
         id: 'women-haircut',
@@ -676,7 +676,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 25, MAD: 250 },
         duration: 40,
-        image: { url: '/images/services/women-hairdressing.jpg', blur: BLUR },
+        image: { url: '/images/services/women-haircut.jpg', blur: BLUR },
       },
       {
         id: 'kids-haircut',
@@ -689,7 +689,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 10, MAD: 100 },
         duration: 25,
-        image: { url: '/images/services/women-hairdressing.jpg', blur: BLUR },
+        image: { url: '/images/services/kids-haircut.jpg', blur: BLUR },
       },
       {
         id: 'root-coloring',
@@ -702,7 +702,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 20, MAD: 200 },
         duration: 60,
-        image: { url: '/images/services/women-hairdressing.jpg', blur: BLUR },
+        image: { url: '/images/services/root-coloring.jpg', blur: BLUR },
       },
       {
         id: 'full-coloring',
@@ -715,7 +715,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 40, MAD: 400 },
         duration: 90,
-        image: { url: '/images/services/women-hairdressing.jpg', blur: BLUR },
+        image: { url: '/images/services/full-coloring.webp', blur: BLUR },
       },
     ],
   },
@@ -741,7 +741,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 25, MAD: 250 },
         duration: 45,
-        image: { url: '/images/services/hammam.jpg', blur: BLUR },
+        image: { url: '/images/services/hammam-moroccan.jpg', blur: BLUR },
       },
       {
         id: 'hammam-beldi',
@@ -754,7 +754,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 40, MAD: 400 },
         duration: 60,
-        image: { url: '/images/services/hammam.jpg', blur: BLUR },
+        image: { url: '/images/services/hammam-beldi.jpg', blur: BLUR },
       },
       {
         id: 'hammam-oriental',
@@ -767,7 +767,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 50, MAD: 500 },
         duration: 75,
-        image: { url: '/images/services/hammam.jpg', blur: BLUR },
+        image: { url: '/images/services/hammam-oriental.webp', blur: BLUR },
       },
       {
         id: 'hammam-royal',
@@ -780,7 +780,7 @@ export const services: ServiceCategory[] = [
         },
         price: { EUR: 65, MAD: 650 },
         duration: 90,
-        image: { url: '/images/services/hammam.jpg', blur: BLUR },
+        image: { url: '/images/services/hammam-royal.webp', blur: BLUR },
       },
     ],
   },
@@ -806,7 +806,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 40, MAD: 400 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-relaxing.jpg', blur: BLUR },
       },
       {
         id: 'massage-tonifying',
@@ -819,7 +819,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 45, MAD: 450 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-tonifying.jpeg', blur: BLUR },
       },
       {
         id: 'massage-pregnancy',
@@ -832,7 +832,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 50, MAD: 500 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-pregnancy.jpg', blur: BLUR },
       },
       {
         id: 'massage-postnatal',
@@ -845,7 +845,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 50, MAD: 500 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-postnatal.jpg', blur: BLUR },
       },
       {
         id: 'massage-sport',
@@ -858,7 +858,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 50, MAD: 500 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-sport.jpg', blur: BLUR },
       },
       {
         id: 'massage-slimming',
@@ -871,7 +871,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 50, MAD: 500 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-slimming.jpg', blur: BLUR },
       },
       {
         id: 'massage-firming',
@@ -884,7 +884,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 50, MAD: 500 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-firming.jpg', blur: BLUR },
       },
       {
         id: 'massage-lymphatic-body',
@@ -897,7 +897,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 55, MAD: 550 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-lymphatic-body.jpg', blur: BLUR },
       },
       {
         id: 'massage-lymphatic-face',
@@ -910,7 +910,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 30,
         price: { EUR: 35, MAD: 350 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-lymphatic-face.webp', blur: BLUR },
       },
       {
         id: 'reflexology-feet',
@@ -923,7 +923,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 40,
         price: { EUR: 35, MAD: 350 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/reflexology-feet.png', blur: BLUR },
       },
       {
         id: 'massage-heavy-legs',
@@ -936,7 +936,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 50, MAD: 500 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-heavy-legs.jpg', blur: BLUR },
       },
       {
         id: 'massage-back',
@@ -949,7 +949,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 30,
         price: { EUR: 40, MAD: 400 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-back.jpeg', blur: BLUR },
       },
       {
         id: 'massage-antistress',
@@ -962,7 +962,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 55, MAD: 550 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-antistress.jpeg', blur: BLUR },
       },
       {
         id: 'massage-four-hands',
@@ -975,7 +975,7 @@ export const services: ServiceCategory[] = [
         },
         duration: 60,
         price: { EUR: 70, MAD: 700 },
-        image: { url: '/images/services/massage.jpg', blur: BLUR },
+        image: { url: '/images/services/massage-four-hands.jpg', blur: BLUR },
       },
     ],
   },

@@ -41,7 +41,6 @@ export default function AppointmentSection() {
       reset(); // ✅ clear form
       setStatus('success'); // ✅ show success
     } catch (error) {
-      console.error(error);
       setStatus('error');
     }
   };
